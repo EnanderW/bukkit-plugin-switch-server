@@ -1,0 +1,13 @@
+name: PhotonConnector
+version: ${project.version}
+main: code.photon.photonconnector.PhotonConnector
+api-version: 1.16
+description: "Plugin to switch between minecraft-servers on a Photon proxy."
+commands:
+  server:
+    description: "Command to switch server."
+    usage: "/server <server-name>"
+    permission: "photon.server"
+permissions:
+  photon.server:
+    description: "Used with the server command."
